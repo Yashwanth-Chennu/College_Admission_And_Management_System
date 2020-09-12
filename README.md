@@ -10,15 +10,24 @@
   
   
   Server: Apache Tomcat
+  
+  
  (b) Requirement Analysis:
-		i. Hardware requirements:
+ 
+ 
+	i. Hardware requirements:
 		
-			CPU : Intel i3 Processor 
-      RAM : 1 GB 
-      HDD :40gb
-      Monitor, Keyboard, Mouse, Printer.
-		ii. Software requirements:
-			Netbeans IDE or eclipse
+	CPU : Intel i3 Processor 
+	
+      	RAM : 1 GB 
+	
+      	HDD :40gb
+	
+      	Monitor, Keyboard, Mouse, Printer.
+	
+	ii. Software requirements:
+	
+	Netbeans IDE or eclipse
       
 ## License & Copyright
 © Yashwanth Chennu, 2020
