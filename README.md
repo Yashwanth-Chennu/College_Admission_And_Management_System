@@ -27,7 +27,7 @@
 	
 	ii. Software requirements:
 	
-	Netbeans IDE or eclipse
+		Netbeans IDE or eclipse
       
 ## License & Copyright
 © Yashwanth Chennu, 2020
