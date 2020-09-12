@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <style>.bg {
+  /* The image used */
+  background-image: url("images/login_full_bg.jpg");
+  height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style>
+    </head>
+    <body bgcolor="Silver" >
+    <div class="bg">
+
+
+            <form action="/sncweb/AdminLoginProcessServlet" method="Get">
+                 <div class="bg3"><center>
+                         <h3>Admin Login Page</h3><br>
+                <table class="table">
+
+                    <tr><td >User Name</td><td><input type="text" name="uname"></td></tr>
+                    <tr><td>Password</td><td><input type="password" name="pwd"></td></tr>
+
+
+                </table>
+                <br><br>
+                  <input class="btn1" type="submit" value="Login" >
+                </center></div>
+            </form>
+      </div>
+    </body>
+</html>

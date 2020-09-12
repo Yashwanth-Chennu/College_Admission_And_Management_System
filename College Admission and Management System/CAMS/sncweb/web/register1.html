@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <style>.bg {
+  /* The image used */
+  background-image: url("images/incharge.jpg");
+  height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: relative;
+}</style>
+
+    </head>
+    <body>
+  <div class="bg">
+
+
+            <form action="/sncweb/RegProcessServlet1" method="Post">
+                 <div class="bg2"><center>
+                         <h3 class="h3s">College Representative Registration Form</h3><br>
+                <table class="tables">
+                    <tr><td>College Name</td><td><input type="text" name="cname"></td></tr>
+                    <tr><td>Email</td><td><input type="email" name="email"></td></tr>
+                    <tr><td>Mobile Number</td><td><input type="text" name="mno"></td></tr>
+                    <tr><td>User Name</td><td><input type="text" name="uname"></td></tr>
+                    <tr><td>Password</td><td><input type="password" name="pwd"></td></tr>
+
+                </table><br><br>
+                <input class="btn1" type="submit" value="Register" >
+                </center></div>
+            </form>
+            </div>
+    </body>
+</html>

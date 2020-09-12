@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>College Admission and Management System</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+
+ <div class="header">
+  <h1>COLLEGE ADMISSION AND MAINTENANCE SYSTEM</h1>
+ </div>
+
+
+ <div class="row"><center>
+  <div class="column">
+    <h2>STUDENT</h2>
+	<center><img src="images/student.png"></center><br><br>
+        <a href="http://localhost:8084/sncweb/register.html">Register</a><br>
+         <a href="http://localhost:8084/sncweb/login.html"> Login</a></div>
+
+  <div class="column">
+    <h2>COLLEGE REPRESENTATIVE</h2>
+	<center><img src="images/cr.jfif"></center><br><br>
+        <a href="http://localhost:8084/sncweb/register1.html">Register</a><br>
+        <a href="http://localhost:8084/sncweb/login1.html">  Login</a></div>
+  <div class="column">
+    <h2>ADMIN</h2>  
+	<center><img src="images/Adminn.png"></center><br><br>
+        <a href="http://localhost:8084/sncweb/login2.html">  Login</a>
+    </div></center>
+    
+   
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <style>.bg {
+  /* The image used */
+  background-image: url("images/registartionimage.jpg");
+  height: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+    </style>
+    </head>
+    <body >
+      <div class="bg">
+
+
+
+            <form action="/sncweb/RegProcessServlet" method="Post">
+                 <div class="bg1"><center>
+                         <h3 >Student Registration Form</h3><br>
+                         <table class="table">
+                             <tr>
+                               <td>Name</td><td><input type="text" name="name"></td>
+                               <td>Eamcet rank</td><td><input type="text" name="rank">
+                             </tr>
+                             <tr>
+                               <td>Father Name</td><td><input type="text" name="fname"></td>
+                               <td>Inter Marks</td><td><input type="text" name="marks"></td>
+                             </tr>
+                             <tr>
+                               <td>Email</td><td><input type="email" name="email"></td>
+                               <td>User Name</td><td><input type="text" name="uname"></td>
+                             </tr>
+                             <tr>
+                               <td>Mobile Number</td><td><input type="text" name="mno"></td>
+                               <td>Password</td><td><input type="password" name="pwd"></td>
+                             </tr>
+
+                </table><br><br>
+                <input class="btn" type="submit" value="Register">
+                </center></div>
+            </form>
+            </div>
+    </body>
+</html>
